@@ -60,6 +60,7 @@
   "scripts": {
     "ngc": "ngc",
     "jasmine": "jasmine",
+    "build:ng-express-engine": "tsc -p modules/ng-express-engine/tsconfig.json",
     "test": "exit 0"
   },
   "devDependencies": {
